@@ -1,0 +1,71 @@
+header{
+    background-color: #830b0b;
+    color:aliceblue;
+    margin: 0;
+    height: 100px;
+}
+
+.Cab{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 60%
+}
+
+body{
+    background-color:#feffec;
+    margin: 0;
+}
+
+main {
+    display:flex;
+}
+
+aside {
+    background-color: rgba(255, 33, 33, 0.511);
+    width: 100%;
+    max-width: 200px;
+    padding: 30px 20px 20px;
+    min-height: calc(100dvh - 55px);
+}
+
+section {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:#fff8da;
+    align-items: flex-start;    
+}
+
+.Abas{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.Menu{
+    background-color: #560000;
+    width: 50%;
+    margin: 0;
+}
+.Reservas{
+    background-color: #670000;
+    width: 50%;
+    margin: 0;
+}
+.Contato{
+    background-color: #7c0000;
+    width: 50%;
+    margin: 0;
+}
+.SobreNos{
+    background-color: #940000;
+    width: 50%;
+    margin: 0;
+}
+.BMenu{
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+}
