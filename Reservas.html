@@ -9,16 +9,35 @@
     </head>
 
     <body>
+
+        <header>
+            <div class="Cab">
+                <img src="img/Logon.jpg" alt="Logo" class="Logo">
+                <titulo>
+                    <h1>Sabor Gourmet</h1>
+                </titulo>
+            </div>
+        </header>
+
         <main>
 
-            <head>
-                <div>
-                    <img src="img/Logo.jpg" alt="Logo" class="Logo_Cab">
-                </div>
-                <div>
-                    <h1>Sabor Gourmet</h1>
-                </div>
-            </head>
+            <aside>
+                <dt>
+                    <p><b>Sabor Gourmet</b> é um restaurante acolhedor e
+                        familiar, onde
+                        a
+                        paixão pela culinária tradicional se encontra com um
+                        toque
+                        de inovação. Localizado no coração de Osvaldo Cruz - SP, o
+                        restaurante oferece uma experiência gastronômica única,
+                        com
+                        pratos preparados com ingredientes frescos e
+                        selecionados,
+                        que despertam memórias afetivas e surpreendem o paladar.
+
+                    </p>
+                </dt>
+            </aside>
 
             <section>
 
@@ -30,72 +49,61 @@
                     </dir>
                     <dir class="Reservas">
                         <a href="Reservas.html">
-                            <p class="bReservas">Blog</p>
+                            <p class="BMenu">Reservas</p>
                         </a>
                     </dir>
                     <dir class="Contato">
                         <a href="Contato.html">
-                            <p class="bContato">Contato</p>
+                            <p class="BMenu">Contato</p>
                         </a>
                     </dir>
                     <dir class="SobreNos">
                         <a href="index.html">
-                            <p class="BSobreNos">Sobre Nós</p>
+                            <p class="BMenu">Sobre Nós</p>
                         </a>
                     </dir>
                 </div>
 
-                <aside>
-                    <dt>
-                        <p><b>Sabor Gourmet</b> é um restaurante acolhedor e familiar, onde
-                            a
-                            paixão pela culinária tradicional se encontra com um
-                            toque
-                            de inovação. Localizado no coração de [bairro/cidade], o
-                            restaurante oferece uma experiência gastronômica única,
-                            com
-                            pratos preparados com ingredientes frescos e
-                            selecionados,
-                            que despertam memórias afetivas e surpreendem o paladar.
-    
-                        </p>
-                    </dt>
-                </aside>
+                <div class="Texto">
+                    <h3 class="tf">Formulário Para Fazer a Sua Reserva</h3>
+                    <form action="/action_page.php">
+                        <div class="form">
+                            <legend><b>Preencha os campos abaixo:</b></legend>
 
-                <h3>Formulário Para Fazer a Sua Reserva</h3>
-                <form action="/action_page.php">
+                            <label for="fname">Nome:</label>
+                            <input type="text" id="fname" required name="fname"
+                                placeholder="Digite seu nome">
 
-                    <legend>Preencha os campos abaixo:</legend>
+                            <label for="birthday">Data de sua reserva:</label>
+                            <input type="datetime-local" id="dateandh" required
+                                name="Data">
 
-                    <label for="fname">Nome:</label>
-                    <input type="text" id="fname" required name="fname"
-                        placeholder="Digite seu nome">
+                            <label for="Telefone">Número de Pessoas em sua
+                                Mesa:</label>
+                            <input type="number" id="nume" required
+                                name="Número de Pessoas"
+                                placeholder="xx">
 
-                    <label for="birthday">Data de sua reserva:</label>
-                    <input type="datetime-local" id="dateandh" required
-                        name="Data">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" required name="Email"
+                                placeholder="Digite seu Email">
 
-                    <label for="Telefone">Número de Pessoas em sua Mesa:</label>
-                    <input type="number" id="nume" required
-                        name="Número de Pessoas"
-                        placeholder="xx">
+                            <label for="Telefone">Telefone</label>
+                            <input type="tel" id="Telefone" required
+                                name="Telefone"
+                                placeholder="(XX) XXXXX-XXXX">
 
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" required name="Email"
-                        placeholder="Digite seu Email">
+                            <label for="w3review">Preferências
+                                Especiais:</label>
+                            <textarea id="Mensagem:"
+                                placeholder="Digige Aqui a sua Mensagem..."
+                                required
+                                name="Mensagem"
+                                rows="4" cols="60"></textarea>
 
-                    <label for="Telefone">Telefone</label>
-                    <input type="tel" id="Telefone" required name="Telefone"
-                        placeholder="(XX) XXXXX-XXXX">
-
-                    <label for="w3review">Preferências Especiais:</label>
-                    <textarea id="Mensagem:"
-                        placeholder="Digige Aqui a sua Mensagem..." required
-                        name="Mensagem"
-                        rows="4" cols="50">
-                </textarea>
-
-                    <input type="submit" value="Enviar">
+                            <input type="submit" value="Enviar">
+                        </div>
+                    </div>
 
                 </form>
             </section>

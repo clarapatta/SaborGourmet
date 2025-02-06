@@ -1,28 +1,33 @@
 header{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #830b0b;
     color:aliceblue;
     margin: 0;
-    height: 100px;
+    width: 100%;
+    height: 100px
 }
 
 .Cab{
     display: flex;
-    justify-content: center;
+    justify-content: center
 }
 
 .Logo{
     height: 100px;
     width: 100px;
-    border-radius: 60%;
+    border-radius: 60%
 }
 
 body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color:#feffec;
-    margin: 0;
+    margin: 0
 }
 
 main {
+    margin-right: 0;
     display:flex;
+    width: 100%;
 }
 
 aside {
@@ -31,46 +36,155 @@ aside {
     width: 100%;
     max-width: 200px;
     padding: 30px 20px 20px;
-    min-height: calc(100dvh - 55px);
+    min-height: calc(100dvh - 55px)
 }
 
 section {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color:#fff8da;
+    width: 100%;
 }
 
 .Abas{
     text-align: center;
     display: flex;
-    justify-content: space-around;
-
+    justify-content: space-around
 }
+
 .Menu{
     background-color: #560000;
     width: 50%;
-    margin: 0;
+    margin: 0
 }
+
 .Reservas{
     background-color: #670000;
     width: 50%;
-    margin: 0;
+    margin: 0
 }
+
 .Contato{
     background-color: #7c0000;
     width: 50%;
-    margin: 0;
+    margin: 0
 }
 .SobreNos{
     background-color: #940000;
     width: 50%;
-    margin: 0;
+    margin: 0
 }
 .BMenu{
     color: aliceblue;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: x-large;
+    font-size: x-large
 }
 
 .Texto{
     padding-inline-start: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h3{
+    color: #5f0000
+}
+
+.tf{
+    color: #5f0000;
+    display: flex;
+    justify-content: center;
+}
+
+.cont{
+    color: #5f0000;
+    display: flex;
+    justify-content: center;
+}
+
+h4{
+    color: #5f0000;
+    display: flex;
+    justify-content: center;
+}
+
+.p{
+    color: #470000
+}
+
+footer{
+    background-color: #830b0b;
+    color:aliceblue;
+    display: flex;
+    justify-content: center
+}
+
+.cardapio{
+    width: 1100px;
+    height: 300px;
+    border-color:#941f1f ;
+}
+
+.FotoDoPrato{
+    width: 150px
+}
+
+.n{
+    width: 1100px;
+    align-items: center;
+    color: #941f1f;
+}
+
+.form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color:#941f1f ;
+    color: aliceblue;
+  }
+  
+label {
+    display: block;
+    margin-bottom: 5px;
+    color:#feffec ;
+  }
+  
+textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+input[type="submit"] {
+    background-color: #feffec;
+    color: #941f1f;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+.mapa{
+    display: flex;
+    justify-content: center;
+    padding-inline-end: 10px;
+    padding-block-end: 20px;
+
+}
+
+.tabelacontato{
+    padding-right: 10px;
+}
+
+.tcont{
+    border-color:#941f1f ;
+}
+
+ul{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+iframe{
+    border-radius: 20px;
 }
