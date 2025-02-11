@@ -19,10 +19,11 @@ header{
 }
 
 body{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color:#feffec;
     margin: 0
 }
+
 
 main {
     margin-right: 0;
@@ -44,6 +45,26 @@ section {
     background-color:#fff8da;
     width: 100%;
 }
+
+.slideshow {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slideshow img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    animation: fade 3s infinite;
+  }
 
 .Abas{
     text-align: center;
@@ -79,6 +100,10 @@ section {
     font-size: x-large
 }
 
+.bCardapio:active{
+    background-color:#470000 ;
+}
+
 .Texto{
     padding-inline-start: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -88,10 +113,64 @@ h3{
     color: #5f0000
 }
 
-.tf{
+/* .tf{
     color: #5f0000;
     display: flex;
     justify-content: center;
+} */
+
+.cardapio {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.cardapio th, .cardapio td {
+    border: 2px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.cardapio .n {
+    background-color:#940000;
+    color: #feffec;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cardapio td img {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: auto;
+    
+}
+
+.cardapio td:first-child {
+    width: 150px;
+    text-align: center;
+}
+
+.cardapio td .bCardapio {
+    display: block;
+    margin: auto;
+    padding: 10px 15px;
+    background-color: #5f0000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.cardapio td .bCardapio:hover {
+    background-color: #5f0000;
+}
+
+.cardapio td:last-child {
+    text-align: center;
+    vertical-align: middle;
 }
 
 .cont{
@@ -131,6 +210,7 @@ footer{
     width: 1100px;
     align-items: center;
     color: #941f1f;
+    background-color:#feffec ;
 }
 
 .form {

@@ -1,6 +1,10 @@
 <!DOCTYPE html>
+
+<!-- Define o tipo de documento como HTML5 e especifica que o idioma é inglês -->
+
 <html lang="en">
 
+    <!-- Seção head contém metadados e links para recursos externos -->
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +12,10 @@
         <title>Sabor Gourmet Menu</title>
     </head>
 
+    <!-- Corpo da página onde todo o conteúdo visível é colocado -->
     <body>
-
+4
+        <!-- Cabeçalho da página -->
         <header>
             <div class="Cab">
                 <img src="img/Logon.jpg" alt="Logo" class="Logo">
@@ -19,8 +25,10 @@
             </div>
         </header>
 
+        <!-- Conteúdo principal da página -->
         <main>
 
+            <!-- Seção lateral com conteúdo relacionado -->
             <aside>
                 <dt>
                     <p><b>Sabor Gourmet</b> é um restaurante acolhedor e
@@ -28,7 +36,8 @@
                         a
                         paixão pela culinária tradicional se encontra com um
                         toque
-                        de inovação. Localizado no coração de Osvaldo Cruz - SP, o
+                        de inovação. Localizado no coração de Osvaldo Cruz - SP,
+                        o
                         restaurante oferece uma experiência gastronômica única,
                         com
                         pratos preparados com ingredientes frescos e
@@ -39,8 +48,10 @@
                 </dt>
             </aside>
 
+            <!-- Seção principal do conteúdo -->
             <section>
 
+                <!-- Container para os links de navegação -->
                 <div class="Abas">
                     <dir class="Menu">
                         <a href="Menu.html">
@@ -64,143 +75,286 @@
                     </dir>
                 </div>
 
+                <!-- Div principal que contém todo o cardápio -->
                 <div class="Texto">
                     <h3>Cardápio</h3>
 
+                    <!-- Lista não ordenada que contém todas as seções do cardápio -->
                     <ul>
+
+                        <!-- Seção de Entradas -->
                         <li>
                             <h3>Entradas</h3>
+
+                            <!-- Tabela que organiza os itens de entrada, com borda de 10px -->
                             <table border="10" class="cardapio">
 
-                                <tr>
+                                <!-- Cabeçalho da tabela com os títulos das colunas -->
+                                <tr class="first-child">
                                     <td class="n"><b>Foto da Entrada</b></td>
                                     <td class="n"><b>Nome da Entrada</b></td>
                                     <td class="n"><b>Preço</b></td>
                                     <td class="n"><b>Descrição</b></td>
+                                    <td class="n"><b>Adicionar ao
+                                            Carrinho</b></td>
                                 </tr>
 
                                 <tr>
+
+                                    <!-- Célula com a imagem do prato -->
                                     <td><img src="img/Brus.jpg" alt="FotoPrato"
                                             class="FotoDoPrato"></td>
+
+                                    <!-- Nome do prato -->
                                     <td>Bruschetta de tomate e manjericão</td>
+
+                                    <!-- Preço do prato -->
                                     <td class="Preço">25,00</td>
+
+                                    <!-- Descrição detalhada do prato -->
                                     <td>Pedaços de pão italiano tostado cobertos
                                         com
                                         tomate
                                         fresco, manjericão, azeite de oliva e
                                         parmesão
                                         ralado.</td>
+                                    
+                                    <!-- Botão para adicionar ao carrinho -->
+                                    <td><input class="bCardapio" type="submit"
+                                            value="Adicionar ao Carrinho"></td>
                                 </tr>
 
                                 <tr>
+                                    <!-- Célula com a imagem do prato -->
                                     <td><img src="img/Capre.jpg" alt="FotoPrato"
                                             class="FotoDoPrato"></td>
+                                    
+                                    <!-- Nome do prato -->
                                     <td>Caprese</td>
+
+                                    <!-- Preço do prato -->
                                     <td class="Preço">R$ 30,00</td>
+
+                                    <!-- Descrição detalhada do prato -->
                                     <td>Mozzarella de búfala fresca, tomate
                                         cereja,
                                         manjericão e vinagre balsâmico.</td>
+
+                                    <!-- Botão para adicionar ao carrinho -->
+                                    <td><input class="bCardapio" type="submit"
+                                            value="Adicionar ao Carrinho"></td>
                                 </tr>
 
                                 <tr>
+
+                                    <!-- Célula com a imagem do prato -->
                                     <td><img src="img/Cala.jpg" alt="FotoPrato"
                                             class="FotoDoPrato"></td>
+
+                                    <!-- Nome do prato -->
                                     <td>Calamari frito</td>
+
+                                    <!-- Preço do prato -->
                                     <td class="Preço">R$ 35,00</td>
+
+                                    <!-- Descrição detalhada do prato -->
                                     <td>Calamari frito com molho marinara e
                                         limão.</td>
+
+                                    <!-- Botão para adicionar ao carrinho -->
+                                    <td><input class="bCardapio" type="submit"
+                                            value="Adicionar ao Carrinho"></td>
                                 </tr>
                             </table>
                         </li>
 
+                        <!-- Seção de Pratos Principais -->
                         <li>
                             <h3>Pratos Principais</h3>
+
+                            <!-- Tabela que organiza os itens de entrada, com borda de 10px -->
                             <table border="10" class="cardapio">
 
+                                <!-- Cabeçalho da tabela com os títulos das colunas -->
                                 <tr>
                                     <td class="n"><b>Foto do Prato</b></td>
                                     <td class="n"><b>Nome do Prato</b></td>
                                     <td class="n"><b>Preço</b></td>
                                     <td class="n"><b>Descrição</b></td>
+                                    <td class="n"><b>Adicionar ao
+                                            Carrinho</b></td>
                                 </tr>
 
                                 <tr>
-                                    <td><img src="img/Riso.jpg" alt="FotoPrato"
+
+                                    <!-- Célula com a imagem do prato -->
+                                    <td><img src="img/Riso.jpg"
+                                            alt="FotoPrato"
                                             class="FotoDoPrato"></td>
+
+                                    <!-- Nome do prato -->
                                     <td>Risoto de camarão com limão
                                         siciliano</td>
+
+                                    <!-- Preço do prato -->
                                     <td class="Preço">R$ 65,00</td>
+
+                                    <!-- Descrição detalhada do prato -->
                                     <td>Risoto cremoso feito com camarões
                                         frescos,
                                         limão
-                                        siciliano, vinho branco e manteiga.</td>
+                                        siciliano, vinho branco e
+                                        manteiga.</td>
+
+                                    <!-- Botão para adicionar ao carrinho -->
+                                    <td><input class="bCardapio"
+                                            type="submit"
+                                            value="Adicionar ao Carrinho"></td>
                                 </tr>
 
                                 <tr>
-                                    <td><img src="img/File.jpg" alt="FotoPrato"
+
+                                    <!-- Célula com a imagem do prato -->
+                                    <td><img src="img/File.jpg"
+                                            alt="FotoPrato"
                                             class="FotoDoPrato"></td>
-                                    <td>Filé mignon com molho de cogumelos</td>
+
+                                    <!-- Nome do prato -->
+                                    <td>Filé mignon com molho de
+                                        cogumelos</td>
+
+                                    <!-- Preço do prato -->
                                     <td class="Preço">R$ 75,00</td>
+
+                                    <!-- Descrição detalhada do prato -->
                                     <td>Filé mignon grelhado com molho de
                                         cogumelos
                                         frescos
                                         e purê de batatas.</td>
+
+                                    <!-- Botão para adicionar ao carrinho -->
+                                    <td><input class="bCardapio" type="submit"
+                                            value="Adicionar ao Carrinho"></td>
                                 </tr>
 
                                 <tr>
-                                    <td><img src="img/Sal.jpg" alt="FotoPrato"
+
+                                    <!-- Célula com a imagem do prato -->
+                                    <td><img src="img/Sal.jpg"
+                                            alt="FotoPrato"
                                             class="FotoDoPrato"></td>
+
+                                    <!-- Nome do prato -->
                                     <td>Salmão com crosta de ervas</td>
+
+                                    <!-- Preço do prato -->
                                     <td class="Preço">R$ 80,00</td>
+
+                                    <!-- Descrição detalhada do prato -->
                                     <td>Salmão fresco grelhado com crosta de
                                         ervas
                                         finas,
                                         purê de batata doce e aspargos.</td>
+
+                                    <!-- Botão para adicionar ao carrinho -->
+                                    <td><input class="bCardapio" type="submit"
+                                            value="Adicionar ao Carrinho"></td>
                                 </tr>
 
                             </table>
                         </li>
 
+                        <!-- Seção de Sobremesas -->
                         <li>
                             <h3>Sobremesa</h3>
+
+                            <!-- Tabela que organiza os itens de entrada, com borda de 10px -->
                             <table border="10" class="cardapio">
 
+                                <!-- Cabeçalho da tabela com os títulos das colunas -->
                                 <tr>
-                                    <td class="n"><b>Foto da Sobremesa</b></td>
-                                    <td class="n"><b>Nome da Sobremesa</b></td>
+                                    <td class="n"><b>Foto da
+                                            Sobremesa</b></td>
+                                    <td class="n"><b>Nome da
+                                            Sobremesa</b></td>
                                     <td class="n"><b>Preço</b></td>
                                     <td class="n"><b>Descrição</b></td>
+                                    <td class="n"><b>Adicionar ao
+                                            Carrinho</b></td>
                                 </tr>
 
                                 <tr>
-                                    <td><img src="img/Mous.jpg" alt="FotoPrato"
+
+                                    <!-- Célula com a imagem do prato -->
+                                    <td><img src="img/Mous.jpg"
+                                            alt="FotoPrato"
                                             class="FotoDoPrato"></td>
+
+                                    <!-- Nome do prato -->
                                     <td>Mousse de chocolate belga</td>
+
+                                    <!-- Preço do prato -->
                                     <td class="Preço">R$ 35,00</td>
-                                    <td>Mousse cremosa de chocolate belga com
+
+                                    <!-- Descrição detalhada do prato -->
+                                    <td>Mousse cremosa de chocolate belga
+                                        com
                                         raspas
                                         de
                                         chocolate e frutas vermelhas.</td>
+
+                                    <!-- Botão para adicionar ao carrinho -->
+                                    <td><input class="bCardapio" type="submit"
+                                            value="Adicionar ao Carrinho"></td>
                                 </tr>
 
                                 <tr>
-                                    <td><img src="img/Tor.jpg" alt="FotoPrato"
+
+                                    <!-- Célula com a imagem do prato -->
+                                    <td><img src="img/Tor.jpg"
+                                            alt="FotoPrato"
                                             class="FotoDoPrato"></td>
-                                    <td>Torta de maçã com crumble de canela</td>
+
+                                    <!-- Nome do prato -->
+                                    <td>Torta de maçã com crumble de
+                                        canela</td>
+
+                                    <!-- Preço do prato -->
                                     <td class="Preço">R$ 40,00</td>
-                                    <td>Torta de maçã com crumble crocante de
+
+                                    <!-- Descrição detalhada do prato -->
+                                    <td>Torta de maçã com crumble crocante
+                                        de
                                         canela,
                                         servida
                                         com sorvete de creme.</td>
+
+                                    <!-- Botão para adicionar ao carrinho -->
+                                    <td><input class="bCardapio" type="submit"
+                                            value="Adicionar ao Carrinho"></td>
                                 </tr>
 
                                 <tr>
-                                    <td><img src="img/CreB.jpg" alt="FotoPrato"
+
+                                    <!-- Célula com a imagem do prato -->
+                                    <td><img src="img/CreB.jpg"
+                                            alt="FotoPrato"
                                             class="FotoDoPrato"></td>
+
+                                    <!-- Nome do prato -->
                                     <td>Crème brûlée</td>
+
+                                    <!-- Preço do prato -->
                                     <td class="Preço">R$ 45,00</td>
-                                    <td>Creme de baunilha com crosta de açúcar
+
+                                    <!-- Descrição detalhada do prato -->
+                                    <td>Creme de baunilha com crosta de
+                                        açúcar
                                         caramelizado.</td>
+
+                                    <!-- Botão para adicionar ao carrinho -->
+                                    <td><input class="bCardapio" type="submit"
+                                            value="Adicionar ao Carrinho"></td>
                                 </tr>
                             </table>
                         </li>
@@ -208,6 +362,8 @@
                 </div>
             </section>
         </main>
+
+        <!-- Rodapé da página -->
         <footer>
             <p>Direitos reservados a desenvolvedora do site: Maria Clara De
                 Araujo Patta - N°30 </p>

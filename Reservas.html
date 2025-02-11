@@ -1,6 +1,9 @@
 <!DOCTYPE html>
+
+<!-- Define o tipo de documento como HTML5 e especifica que o idioma é inglês -->
 <html lang="en">
 
+    <!-- Seção head contém metadados e links para recursos externos -->
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +11,10 @@
         <title>Sabor Gourmet Reservas</title>
     </head>
 
+    <!-- Corpo da página onde todo o conteúdo visível é colocado -->
     <body>
 
+        <!-- Cabeçalho da página -->
         <header>
             <div class="Cab">
                 <img src="img/Logon.jpg" alt="Logo" class="Logo">
@@ -19,8 +24,10 @@
             </div>
         </header>
 
+        <!-- Conteúdo principal da página -->
         <main>
 
+            <!-- Seção lateral com conteúdo relacionado -->
             <aside>
                 <dt>
                     <p><b>Sabor Gourmet</b> é um restaurante acolhedor e
@@ -39,8 +46,10 @@
                 </dt>
             </aside>
 
+            <!-- Seção principal do conteúdo -->
             <section>
 
+                <!-- Container para os links de navegação -->
                 <div class="Abas">
                     <dir class="Menu">
                         <a href="Menu.html">
@@ -64,35 +73,46 @@
                     </dir>
                 </div>
 
+                <!-- Início da estrutura do formulário -->
                 <div class="Texto">
                     <h3 class="tf">Formulário Para Fazer a Sua Reserva</h3>
+
+                    <!-- Início do formulário, enviando os dados para 'action_page.php' -->
                     <form action="/action_page.php">
                         <div class="form">
+
+                            <!-- Legenda explicativa do formulário -->
                             <legend><b>Preencha os campos abaixo:</b></legend>
 
+                            <!-- Campo de entrada para o nome -->
                             <label for="fname">Nome:</label>
                             <input type="text" id="fname" required name="fname"
                                 placeholder="Digite seu nome">
 
+                            <!-- Campo de entrada para a data da reserva -->
                             <label for="birthday">Data de sua reserva:</label>
                             <input type="datetime-local" id="dateandh" required
                                 name="Data">
 
+                            <!-- Campo de entrada para o número de pessoas na mesa -->
                             <label for="Telefone">Número de Pessoas em sua
                                 Mesa:</label>
                             <input type="number" id="nume" required
                                 name="Número de Pessoas"
                                 placeholder="xx">
 
+                            <!-- Campo de entrada para o email -->
                             <label for="email">Email:</label>
                             <input type="email" id="email" required name="Email"
                                 placeholder="Digite seu Email">
 
+                            <!-- Campo de entrada para o telefone -->
                             <label for="Telefone">Telefone</label>
                             <input type="tel" id="Telefone" required
                                 name="Telefone"
                                 placeholder="(XX) XXXXX-XXXX">
 
+                            <!-- Área de texto para preferências especiais -->
                             <label for="w3review">Preferências
                                 Especiais:</label>
                             <textarea id="Mensagem:"
@@ -101,6 +121,7 @@
                                 name="Mensagem"
                                 rows="4" cols="60"></textarea>
 
+                            <!-- Botão de envio do formulário -->
                             <input type="submit" value="Enviar">
                         </div>
                     </div>
@@ -108,6 +129,8 @@
                 </form>
             </section>
         </main>
+
+        <!-- Rodapé da página -->
         <footer>
             <p>Direitos reservados a desenvolvedora do site: Maria Clara De
                 Araujo Patta - N°30 </p>
