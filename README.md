@@ -52,6 +52,7 @@ open index.html
 
 # Opção 2: Usar Live Server (extensão do VS Code)
 # Clique com o botão direito em index.html > "Open with Live Server"
+```
 
 ## 🌐 Navegação do Site
 
